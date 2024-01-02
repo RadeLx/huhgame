@@ -185,7 +185,7 @@ public class MainActivity extends AppCompatActivity {
 
                 videoView.setOnCompletionListener(new MediaPlayer.OnCompletionListener() {
                     public void onCompletion(MediaPlayer mp) {
-                        playOriginalVideo();  // 播放完毕后重新播放原视频
+                        playOriginalVideo(); 
                     }
                 });
 
